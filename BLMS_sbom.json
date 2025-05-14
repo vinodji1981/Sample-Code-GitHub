@@ -1,0 +1,3248 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:be9badeb-98ee-4b1a-993d-b599d958b3fe",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-04-17T11:21:21Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "11.2.4",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@11.2.4",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@11.2.4",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "component": {
+      "group": "BLMS",
+      "name": "BLMS",
+      "version": "3.3.1-SNAPSHOT",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\dpath\\eclipse-workspace\\BLMS\\pom.xml"
+        }
+      ],
+      "purl": "pkg:maven/BLMS/BLMS@3.3.1-SNAPSHOT?type=war",
+      "bom-ref": "pkg:maven/BLMS/BLMS@3.3.1-SNAPSHOT?type=war",
+      "type": "application"
+    },
+    "properties": [
+      {
+        "name": "cdx:bom:componentTypes",
+        "value": "maven\\nnpm"
+      },
+      {
+        "name": "cdx:bom:componentNamespaces",
+        "value": "ch.qos.logback\\ncom.fasterxml.jackson.core\\ncom.microsoft.sqlserver\\ncom.sun.jersey\\ncom.sun.mail\\ncommons-codec\\ncommons-io\\njakarta.activation\\njakarta.annotation\\njakarta.json\\njakarta.json.bind\\njakarta.validation\\njakarta.ws.rs\\njakarta.xml.bind\\njavax.activation\\njavax.servlet\\njavax.servlet.jsp\\njavax.ws.rs\\njavax.xml.bind\\njavax.xml.stream\\norg.apache.commons\\norg.eclipse\\norg.eclipse.persistence\\norg.glassfish\\norg.glassfish.hk2\\norg.glassfish.hk2.external\\norg.glassfish.jersey.bundles\\norg.glassfish.jersey.containers\\norg.glassfish.jersey.core\\norg.glassfish.jersey.ext\\norg.glassfish.jersey.inject\\norg.glassfish.jersey.media\\norg.javassist\\norg.json\\norg.jvnet.mimepull\\norg.slf4j"
+      },
+      {
+        "name": "cdx:bom:componentSrcFiles",
+        "value": "WebContent\\app-assets\\js\\apexcharts\\apexcharts.min.js\\nWebContent\\app-assets\\js\\bootstrap\\bootstrap.bundle.min.js\\nWebContent\\app-assets\\js\\bootstrap\\bootstrap.min.js\\nWebContent\\app-assets\\js\\datatables\\pdfmake.min.js\\nWebContent\\app-assets\\js\\excel\\xlsx.full.min.js\\nWebContent\\app-assets\\js\\jquery-3.6.0.min.js\\nWebContent\\app-assets\\js\\jquery-ui\\jquery-ui.min.js\\nWebContent\\app-assets\\js\\jquery-validation\\jquery.validate.min.js\\nWebContent\\app-assets\\js\\select2\\select2.full.min.js\\nWebContent\\app-assets\\js\\select2\\select2.min.js\\nWebContent\\app-assets\\js\\summernote\\summernote.min.js\\npom.xml\\ntarget\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "jquery",
+      "version": "3.6.0",
+      "purl": "pkg:npm/jquery@3.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery@3.6.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\jquery-3.6.0.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\jquery-3.6.0.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\jquery-3.6.0.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "summernote",
+      "version": "0.9.0",
+      "purl": "pkg:npm/summernote@0.9.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/summernote@0.9.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\summernote\\summernote.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\summernote\\summernote.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\summernote\\summernote.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "select2",
+      "version": "4.0.13",
+      "purl": "pkg:npm/select2@4.0.13",
+      "type": "library",
+      "bom-ref": "pkg:npm/select2@4.0.13",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\select2\\select2.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\select2\\select2.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\select2\\select2.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "select2",
+      "version": "4.1.0-rc.0",
+      "purl": "pkg:npm/select2@4.1.0-rc.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/select2@4.1.0-rc.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\select2\\select2.full.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\select2\\select2.full.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\select2\\select2.full.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "jquery-validation-plugin",
+      "version": "1.16.0",
+      "purl": "pkg:npm/jquery-validation-plugin@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery-validation-plugin@1.16.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\jquery-validation\\jquery.validate.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\jquery-validation\\jquery.validate.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\jquery-validation\\jquery.validate.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "jquery-ui",
+      "version": "1.14.1",
+      "purl": "pkg:npm/jquery-ui@1.14.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery-ui@1.14.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\jquery-ui\\jquery-ui.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\jquery-ui\\jquery-ui.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\jquery-ui\\jquery-ui.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "xlsx.js",
+      "version": "(C)",
+      "purl": "pkg:npm/xlsx.js@(C)",
+      "type": "library",
+      "bom-ref": "pkg:npm/xlsx.js@(C)",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\excel\\xlsx.full.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\excel\\xlsx.full.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\excel\\xlsx.full.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "pdfmake",
+      "version": "0.1.36,",
+      "purl": "pkg:npm/pdfmake@0.1.36%2C",
+      "type": "library",
+      "bom-ref": "pkg:npm/pdfmake@0.1.36,",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\datatables\\pdfmake.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\datatables\\pdfmake.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\datatables\\pdfmake.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "bootstrap",
+      "version": "5.0.2",
+      "purl": "pkg:npm/bootstrap@5.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/bootstrap@5.0.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\bootstrap\\bootstrap.min.js"
+        },
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\bootstrap\\bootstrap.bundle.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\bootstrap\\bootstrap.bundle.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\bootstrap\\bootstrap.bundle.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "svg.filter.js",
+      "version": "2.0.2",
+      "purl": "pkg:npm/svg.filter.js@2.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/svg.filter.js@2.0.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\apexcharts\\apexcharts.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\apexcharts\\apexcharts.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\apexcharts\\apexcharts.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "",
+      "name": "svg.draggable.js",
+      "version": "2.2.2",
+      "purl": "pkg:npm/svg.draggable.js@2.2.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/svg.draggable.js@2.2.2",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "WebContent\\app-assets\\js\\apexcharts\\apexcharts.min.js"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.25,
+            "methods": [
+              {
+                "technique": "filename",
+                "confidence": 0.25,
+                "value": "WebContent\\app-assets\\js\\apexcharts\\apexcharts.min.js"
+              }
+            ],
+            "concludedValue": "WebContent\\app-assets\\js\\apexcharts\\apexcharts.min.js"
+          }
+        ]
+      }
+    },
+    {
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.14.0",
+      "scope": "required",
+      "purl": "pkg:maven/commons-io/commons-io@2.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.14.0?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "com.microsoft.sqlserver",
+      "name": "mssql-jdbc",
+      "version": "8.2.2.jre8",
+      "scope": "required",
+      "purl": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@8.2.2.jre8?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@8.2.2.jre8?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.jersey.bundles",
+      "name": "jaxrs-ri",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.bundles/jaxrs-ri@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.bundles/jaxrs-ri@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.jersey.inject",
+      "name": "jersey-hk2",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.hk2",
+      "name": "hk2-locator",
+      "version": "2.6.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.hk2.external",
+      "name": "aopalliance-repackaged",
+      "version": "2.6.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.hk2",
+      "name": "hk2-api",
+      "version": "2.6.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.hk2",
+      "name": "hk2-utils",
+      "version": "2.6.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.javassist",
+      "name": "javassist",
+      "version": "3.25.0-GA",
+      "scope": "required",
+      "purl": "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.jersey.core",
+      "name": "jersey-common",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "jakarta.ws.rs",
+      "name": "jakarta.ws.rs-api",
+      "version": "2.1.6",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "jakarta.annotation",
+      "name": "jakarta.annotation-api",
+      "version": "1.3.5",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.hk2.external",
+      "name": "jakarta.inject",
+      "version": "2.6.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.hk2",
+      "name": "osgi-resource-locator",
+      "version": "1.0.3",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.jersey.media",
+      "name": "jersey-media-jaxb",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.jersey.media",
+      "name": "jersey-media-json-binding",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.media/jersey-media-json-binding@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-json-binding@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.eclipse",
+      "name": "yasson",
+      "version": "1.0.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse/yasson@1.0.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse/yasson@1.0.6?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish",
+      "name": "jakarta.json",
+      "version": "1.1.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish/jakarta.json@1.1.6?classifier=module&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish/jakarta.json@1.1.6?classifier=module&type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "jakarta.json.bind",
+      "name": "jakarta.json.bind-api",
+      "version": "1.0.2",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.json.bind/jakarta.json.bind-api@1.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.json.bind/jakarta.json.bind-api@1.0.2?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.jersey.core",
+      "name": "jersey-client",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.jersey.core",
+      "name": "jersey-server",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "jakarta.validation",
+      "name": "jakarta.validation-api",
+      "version": "2.0.2",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.jersey.containers",
+      "name": "jersey-container-servlet-core",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.jersey.containers",
+      "name": "jersey-container-servlet",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.jersey.media",
+      "name": "jersey-media-sse",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.media/jersey-media-sse@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-sse@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.3",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.2",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.jersey.media",
+      "name": "jersey-media-moxy",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.media/jersey-media-moxy@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-moxy@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.glassfish.jersey.ext",
+      "name": "jersey-entity-filtering",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "jakarta.json",
+      "name": "jakarta.json-api",
+      "version": "1.1.6",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.json/jakarta.json-api@1.1.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.json/jakarta.json-api@1.1.6?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish",
+      "name": "jakarta.json",
+      "version": "1.1.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish/jakarta.json@1.1.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish/jakarta.json@1.1.6?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.eclipse.persistence",
+      "name": "org.eclipse.persistence.moxy",
+      "version": "2.7.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.moxy@2.7.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.moxy@2.7.6?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.eclipse.persistence",
+      "name": "org.eclipse.persistence.core",
+      "version": "2.7.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.core@2.7.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.core@2.7.6?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.eclipse.persistence",
+      "name": "org.eclipse.persistence.asm",
+      "version": "2.7.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.asm@2.7.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.asm@2.7.6?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "com.sun.jersey",
+      "name": "jersey-client",
+      "version": "1.19.4",
+      "scope": "required",
+      "purl": "pkg:maven/com.sun.jersey/jersey-client@1.19.4?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.sun.jersey/jersey-client@1.19.4?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "com.sun.jersey",
+      "name": "jersey-core",
+      "version": "1.19.4",
+      "scope": "required",
+      "purl": "pkg:maven/com.sun.jersey/jersey-core@1.19.4?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/com.sun.jersey/jersey-core@1.19.4?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "javax.ws.rs",
+      "name": "jsr311-api",
+      "version": "1.1.1",
+      "scope": "required",
+      "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.5.13",
+      "scope": "required",
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.5.13?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.5.13?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.5.13",
+      "scope": "required",
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.5.13?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.5.13?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.15",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.15?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.15?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.slf4j",
+      "name": "jcl-over-slf4j",
+      "version": "1.7.30",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "com.sun.mail",
+      "name": "javax.mail",
+      "version": "1.6.2",
+      "scope": "required",
+      "purl": "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.15.0",
+      "scope": "required",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.0?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.15.0",
+      "scope": "required",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.0?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.15.0",
+      "scope": "required",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "com.sun.mail",
+      "name": "smtp",
+      "version": "1.4.5",
+      "scope": "required",
+      "purl": "pkg:maven/com.sun.mail/smtp@1.4.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.mail/smtp@1.4.5?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "javax.activation",
+      "name": "activation",
+      "version": "1.1.1",
+      "scope": "required",
+      "purl": "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.15",
+      "scope": "required",
+      "purl": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.26.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "javax.servlet",
+      "name": "servlet-api",
+      "version": "2.5",
+      "scope": "excluded",
+      "purl": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "provided"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "javax.servlet.jsp",
+      "name": "jsp-api",
+      "version": "2.1",
+      "scope": "excluded",
+      "purl": "pkg:maven/javax.servlet.jsp/jsp-api@2.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.servlet.jsp/jsp-api@2.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "provided"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "javax.xml.bind",
+      "name": "jaxb-api",
+      "version": "2.1",
+      "scope": "required",
+      "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.xml.bind/jaxb-api@2.1?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "javax.xml.stream",
+      "name": "stax-api",
+      "version": "1.0-2",
+      "scope": "required",
+      "purl": "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.glassfish.jersey.media",
+      "name": "jersey-media-multipart",
+      "version": "2.34",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jersey.media/jersey-media-multipart@2.34?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-multipart@2.34?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "framework"
+      ]
+    },
+    {
+      "group": "org.jvnet.mimepull",
+      "name": "mimepull",
+      "version": "1.9.13",
+      "scope": "required",
+      "purl": "pkg:maven/org.jvnet.mimepull/mimepull@1.9.13?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jvnet.mimepull/mimepull@1.9.13?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "group": "org.json",
+      "name": "json",
+      "version": "20231013",
+      "scope": "required",
+      "purl": "pkg:maven/org.json/json@20231013?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.json/json@20231013?type=jar",
+      "properties": [
+        {
+          "name": "cdx:maven:component_scope",
+          "value": "compile"
+        },
+        {
+          "name": "SrcFile",
+          "value": "pom.xml"
+        },
+        {
+          "name": "SrcFile",
+          "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 0.5,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "pom.xml"
+              },
+              {
+                "technique": "manifest-analysis",
+                "confidence": 0.5,
+                "value": "target\\m2e-wtp\\web-resources\\META-INF\\maven\\BLMS\\BLMS\\pom.xml"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/BLMS/BLMS@3.3.1-SNAPSHOT?type=war",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-classic@1.5.13?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.0?type=jar",
+        "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@8.2.2.jre8?type=jar",
+        "pkg:maven/com.sun.jersey/jersey-client@1.19.4?type=jar",
+        "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+        "pkg:maven/com.sun.mail/smtp@1.4.5?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+        "pkg:maven/commons-io/commons-io@2.14.0?type=jar",
+        "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+        "pkg:maven/javax.servlet.jsp/jsp-api@2.1?type=jar",
+        "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+        "pkg:maven/javax.xml.bind/jaxb-api@2.1?type=jar",
+        "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+        "pkg:maven/org.glassfish.jersey.bundles/jaxrs-ri@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.media/jersey-media-moxy@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.media/jersey-media-multipart@2.34?type=jar",
+        "pkg:maven/org.json/json@20231013?type=jar",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@2.14.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@8.2.2.jre8?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.bundles/jaxrs-ri@2.34?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-common@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.core/jersey-server@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.media/jersey-media-json-binding@2.34?type=jar",
+        "pkg:maven/org.glassfish.jersey.media/jersey-media-sse@2.34?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.34?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar",
+        "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/hk2-locator@2.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar",
+        "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar",
+        "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2.external/aopalliance-repackaged@2.6.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/hk2-api@2.6.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/hk2-utils@2.6.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.javassist/javassist@3.25.0-GA?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.34?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar",
+        "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar",
+        "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar",
+        "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2.external/jakarta.inject@2.6.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.hk2/osgi-resource-locator@1.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-jaxb@2.34?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-json-binding@2.34?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.json.bind/jakarta.json.bind-api@1.0.2?type=jar",
+        "pkg:maven/org.eclipse/yasson@1.0.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse/yasson@1.0.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.glassfish/jakarta.json@1.1.6?classifier=module&type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.glassfish/jakarta.json@1.1.6?classifier=module&type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.json.bind/jakarta.json.bind-api@1.0.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-client@2.34?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.core/jersey-server@2.34?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet-core@2.34?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.containers/jersey-container-servlet@2.34?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-sse@2.34?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-moxy@2.34?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.json/jakarta.json-api@1.1.6?type=jar",
+        "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.moxy@2.7.6?type=jar",
+        "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@2.34?type=jar",
+        "pkg:maven/org.glassfish/jakarta.json@1.1.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.ext/jersey-entity-filtering@2.34?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.json/jakarta.json-api@1.1.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish/jakarta.json@1.1.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.moxy@2.7.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.core@2.7.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.core@2.7.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.asm@2.7.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.persistence/org.eclipse.persistence.asm@2.7.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.jersey/jersey-client@1.19.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.sun.jersey/jersey-core@1.19.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.sun.jersey/jersey-core@1.19.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-classic@1.5.13?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-core@1.5.13?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.15?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-core@1.5.13?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.15?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.30?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.mail/smtp@1.4.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-compress@1.26.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.servlet.jsp/jsp-api@2.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.xml.bind/jaxb-api@2.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/javax.xml.stream/stax-api@1.0-2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jersey.media/jersey-media-multipart@2.34?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jvnet.mimepull/mimepull@1.9.13?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jvnet.mimepull/mimepull@1.9.13?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.json/json@20231013?type=jar",
+      "dependsOn": []
+    }
+  ],
+  "annotations": [
+    {
+      "bom-ref": "metadata-annotations",
+      "subjects": [
+        "pkg:maven/BLMS/BLMS@3.3.1-SNAPSHOT?type=war"
+      ],
+      "annotator": {
+        "component": {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "11.2.4",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@11.2.4",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@11.2.4",
+          "publisher": "OWASP Foundation",
+          "authors": [
+            {
+              "name": "OWASP Foundation"
+            }
+          ]
+        }
+      },
+      "timestamp": "2025-04-17T11:21:21Z",
+      "text": "This Software Bill-of-Materials (SBOM) document was created on Thursday, April 17, 2025 with cdxgen. The data was captured during the build lifecycle phase. The document describes an application named 'BLMS' with the dev version '3.3.1-SNAPSHOT'. There are 68 components. 2 package type(s) and 36 purl namespaces are described in the document under components."
+    }
+  ]
+}
